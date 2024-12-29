@@ -136,7 +136,7 @@ router.route('/').get(getAll).post(create)
 
 /**
  * @swagger
- * /tasks/{_id}:
+ * /api/tasks/{_id}:
  *   delete:
  *     summary: Remove the Task by id
  *     tags: [Tasks]
